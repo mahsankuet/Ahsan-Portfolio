@@ -1,0 +1,144 @@
+media:
+  input: assets/uploads
+  output: /Ahsan-Portfolio/assets/uploads
+
+content:
+  - name: site
+    label: Website Content
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: site_name
+        label: Brand / Name
+        type: string
+
+      - name: hero
+        label: Hero Section
+        type: object
+        fields:
+          - name: eyebrow
+            label: Small Heading
+            type: string
+          - name: title
+            label: Main Headline
+            type: text
+          - name: intro
+            label: Intro Text
+            type: text
+
+      - name: stats
+        label: Profile Stats
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{value} — {label}"
+        fields:
+          - name: value
+            type: string
+          - name: label
+            type: string
+
+      - name: work
+        label: Work Section Intro
+        type: object
+        fields:
+          - name: eyebrow
+            type: string
+          - name: title
+            type: string
+          - name: intro
+            type: text
+
+      - name: projects
+        label: Portfolio Projects
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title} — {category}"
+        fields:
+          - name: title
+            label: Project Title
+            type: string
+          - name: category
+            label: Category
+            type: string
+          - name: image
+            label: Image URL / Uploaded Image
+            type: string
+            description: Paste an image URL, or upload an image to assets/uploads and paste its path here.
+          - name: url
+            label: Project Link
+            type: string
+          - name: featured
+            label: Large Featured Card
+            type: boolean
+
+      - name: services_section
+        label: Services Heading
+        type: object
+        fields:
+          - name: eyebrow
+            type: string
+          - name: title
+            type: string
+
+      - name: services
+        label: Services
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{number} — {title}"
+        fields:
+          - name: number
+            type: string
+          - name: title
+            type: string
+          - name: description
+            type: text
+
+      - name: about
+        label: About Section
+        type: object
+        fields:
+          - name: eyebrow
+            type: string
+          - name: title
+            type: string
+          - name: paragraphs
+            label: About Paragraphs
+            type: text
+            list: true
+          - name: skills
+            label: Skills / Tags
+            type: string
+            list: true
+
+      - name: contact
+        label: Contact Section
+        type: object
+        fields:
+          - name: eyebrow
+            type: string
+          - name: title
+            type: string
+          - name: text
+            type: text
+          - name: email
+            type: string
+
+      - name: links
+        label: External Links
+        type: object
+        fields:
+          - name: behance
+            type: string
+          - name: upwork
+            type: string
+
+      - name: footer
+        label: Footer Copyright
+        type: string
