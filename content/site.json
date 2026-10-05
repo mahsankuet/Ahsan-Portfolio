@@ -1,0 +1,142 @@
+{
+  "site_name": "Ahsan Khan",
+  "hero": {
+    "eyebrow": "Amazon visual designer & marketplace specialist",
+    "title": "Amazon creative built to earn the click — and support the conversion.",
+    "intro": "I create listing images, A+ Content, Premium A+ and storefront systems that turn product features into clear, persuasive visual stories."
+  },
+  "stats": [
+    {
+      "value": "100%",
+      "label": "Job Success"
+    },
+    {
+      "value": "Top Rated",
+      "label": "Upwork status"
+    },
+    {
+      "value": "233",
+      "label": "Jobs completed"
+    },
+    {
+      "value": "5.9K+",
+      "label": "Upwork hours"
+    }
+  ],
+  "work": {
+    "eyebrow": "Selected portfolio creatives",
+    "title": "Real client work. Clear product stories.",
+    "intro": "A selection pulled directly from my portfolio across Premium A+, listing images, EBC and product-focused Amazon creative."
+  },
+  "projects": [
+    {
+      "title": "J’OMOR Designer Bag",
+      "category": "Premium A+ Content",
+      "image": "https://mir-s3-cdn-cf.behance.net/projects/404/9e232f256504997.Y3JvcCwxNDY0LDExNDUsMCw3Ng.png",
+      "url": "https://www.behance.net/gallery/256504997/JOMOR-Designer-Bag-Premium-A-content",
+      "featured": true
+    },
+    {
+      "title": "Amazon Premium A+ System",
+      "category": "Premium A+ Content",
+      "image": "https://mir-s3-cdn-cf.behance.net/projects/404/1e9fd6252825853.Y3JvcCwxOTIwLDE1MDEsMCwxNDI1.png",
+      "url": "https://www.behance.net/gallery/252825853/Amazon-Premium-A-content",
+      "featured": false
+    },
+    {
+      "title": "Shower Rack",
+      "category": "Listing Images",
+      "image": "https://mir-s3-cdn-cf.behance.net/projects/404/bb4048252825513.Y3JvcCwyNTU2LDIwMDAsMTk5Myww.png",
+      "url": "https://www.behance.net/gallery/252825513/Amazon-Listing-Images-Shower-Rack",
+      "featured": false
+    },
+    {
+      "title": "Support Product A+",
+      "category": "A+ Content",
+      "image": "https://mir-s3-cdn-cf.behance.net/projects/404/21afa5252824579.Y3JvcCw5NzAsNzU4LDAsMTIxMA.png",
+      "url": "https://www.behance.net/gallery/252824579/Amazon-A-content-Brest-Support",
+      "featured": false
+    },
+    {
+      "title": "Skip Rope",
+      "category": "Listing Images",
+      "image": "https://mir-s3-cdn-cf.behance.net/projects/404/dea2f7252823955.Y3JvcCwyNTU2LDIwMDAsMTk5Myww.jpg",
+      "url": "https://www.behance.net/gallery/252823955/Amazon-Listing-Images-of-Skip-Rope",
+      "featured": false
+    },
+    {
+      "title": "Rolling Pin",
+      "category": "Listing Images",
+      "image": "https://mir-s3-cdn-cf.behance.net/projects/404/c7ee96252823779.Y3JvcCwyNTU2LDIwMDAsMjAxMiww.png",
+      "url": "https://www.behance.net/gallery/252823779/Amazon-Listing-Images-Rolling-Pin",
+      "featured": false
+    },
+    {
+      "title": "Book A+ Content",
+      "category": "A+ Content",
+      "image": "https://mir-s3-cdn-cf.behance.net/projects/404/550217252823369.Y3JvcCw5NzAsNzU4LDAsMA.png",
+      "url": "https://www.behance.net/gallery/252823369/Amazon-A-content-of-Book",
+      "featured": false
+    },
+    {
+      "title": "Azul Tea",
+      "category": "EBC / A+ Content",
+      "image": "https://mir-s3-cdn-cf.behance.net/projects/404/232efd252822229.Y3JvcCw5NzAsNzU4LDAsMTIwMA.png",
+      "url": "https://www.behance.net/gallery/252822229/EBC-of-Azul-Tea",
+      "featured": true
+    }
+  ],
+  "services_section": {
+    "eyebrow": "Services",
+    "title": "From first click to brand story."
+  },
+  "services": [
+    {
+      "number": "01",
+      "title": "Listing Images",
+      "description": "Main images, infographics, lifestyle images, comparison graphics and feature-led visual systems."
+    },
+    {
+      "number": "02",
+      "title": "A+ Content",
+      "description": "Basic and Premium A+ layouts designed for stronger storytelling, education and visual continuity."
+    },
+    {
+      "number": "03",
+      "title": "Brand Storefronts",
+      "description": "Amazon storefront banners and page systems that organize the catalog while strengthening brand identity."
+    },
+    {
+      "number": "04",
+      "title": "Creative Direction",
+      "description": "Visual hierarchy, design systems, product positioning and creative consistency across marketplace assets."
+    }
+  ],
+  "about": {
+    "eyebrow": "About",
+    "title": "Design thinking shaped by real Amazon work.",
+    "paragraphs": [
+      "I’m Muhammad Ahsan Khan, an Amazon-focused visual designer working across listing images, A+ Content, Premium A+ and Storefront design.",
+      "My approach combines strong visual presentation with marketplace awareness: what shoppers see first, what needs explanation, what creates trust, and how the complete listing should feel as one system rather than separate graphics."
+    ],
+    "skills": [
+      "Amazon Listing Images",
+      "A+ Content",
+      "Premium A+",
+      "Storefronts",
+      "Brand Story",
+      "Infographics"
+    ]
+  },
+  "contact": {
+    "eyebrow": "Available for selected projects",
+    "title": "Need stronger Amazon creative?",
+    "text": "Tell me what you’re selling and what you need. I’ll help turn it into a clearer, more professional visual experience.",
+    "email": "mahsankuet@gmail.com"
+  },
+  "links": {
+    "behance": "https://www.behance.net/ahsankhan146",
+    "upwork": "https://www.upwork.com/freelancers/mahsankhan3"
+  },
+  "footer": "© 2026 Muhammad Ahsan Khan"
+}
