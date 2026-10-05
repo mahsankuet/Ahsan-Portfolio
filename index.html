@@ -14,11 +14,12 @@
   <link rel="preconnect" href="https://mir-s3-cdn-cf.behance.net">
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
 </head>
 <body>
 <header class="header">
   <div class="wrap nav">
-    <a class="brand" href="#top"><span class="mark">AK</span><span>Ahsan Khan</span></a>
+    <a class="brand" href="#top"><span class="mark">AK</span><span id="brand-name">Ahsan Khan</span></a>
     <nav>
       <a href="#work">Work</a>
       <a href="#services">Services</a>
@@ -32,128 +33,65 @@
   <section class="hero">
     <div class="wrap hero-grid">
       <div class="hero-copy">
-        <p class="eyebrow"><span></span> Amazon visual designer & marketplace specialist</p>
-        <h1>Amazon creative built to earn the click — and support the conversion.</h1>
-        <p class="lead">I create listing images, A+ Content, Premium A+ and storefront systems that turn product features into clear, persuasive visual stories.</p>
+        <p class="eyebrow"><span></span><span id="hero-eyebrow">Amazon visual designer & marketplace specialist</span></p>
+        <h1 id="hero-title">Amazon creative built to earn the click — and support the conversion.</h1>
+        <p class="lead" id="hero-intro">I create listing images, A+ Content, Premium A+ and storefront systems that turn product features into clear, persuasive visual stories.</p>
         <div class="actions">
           <a class="button dark" href="#work">View selected work →</a>
           <a class="button" href="#contact">Start a project</a>
         </div>
       </div>
 
-      <div class="hero-collage" aria-label="Selected portfolio work">
-        <a class="hero-shot shot-a" href="https://www.behance.net/gallery/256504997/JOMOR-Designer-Bag-Premium-A-content" target="_blank" rel="noopener">
-          <img src="https://mir-s3-cdn-cf.behance.net/projects/404/9e232f256504997.Y3JvcCwxNDY0LDExNDUsMCw3Ng.png" alt="J'OMOR Designer Bag Premium A+ Content" decoding="async">
-        </a>
-        <a class="hero-shot shot-b" href="https://www.behance.net/gallery/252825513/Amazon-Listing-Images-Shower-Rack" target="_blank" rel="noopener">
-          <img src="https://mir-s3-cdn-cf.behance.net/projects/404/bb4048252825513.Y3JvcCwyNTU2LDIwMDAsMTk5Myww.png" alt="Amazon listing images for a shower rack" decoding="async">
-        </a>
-        <a class="hero-shot shot-c" href="https://www.behance.net/gallery/252823369/Amazon-A-content-of-Book" target="_blank" rel="noopener">
-          <img src="https://mir-s3-cdn-cf.behance.net/projects/404/550217252823369.Y3JvcCw5NzAsNzU4LDAsMA.png" alt="Amazon A+ content for a book" decoding="async">
-        </a>
-        <a class="hero-shot shot-d" href="https://www.behance.net/gallery/252822229/EBC-of-Azul-Tea" target="_blank" rel="noopener">
-          <img src="https://mir-s3-cdn-cf.behance.net/projects/404/232efd252822229.Y3JvcCw5NzAsNzU4LDAsMTIwMA.png" alt="Azul Tea EBC design" decoding="async">
-        </a>
-      </div>
-
-      <div class="stats">
-        <div><strong>100%</strong><span>Job Success</span></div>
-        <div><strong>Top Rated</strong><span>Upwork status</span></div>
-        <div><strong>233</strong><span>Jobs completed</span></div>
-        <div><strong>5.9K+</strong><span>Upwork hours</span></div>
-      </div>
+      <div class="hero-collage" id="hero-collage" aria-label="Selected portfolio work"></div>
+      <div class="stats" id="stats"></div>
     </div>
   </section>
 
   <section id="work" class="section">
     <div class="wrap">
       <div class="section-head">
-        <div><p class="eyebrow">Selected portfolio creatives</p><h2>Real client work. Clear product stories.</h2></div>
-        <p>A selection pulled directly from my Behance portfolio across Premium A+, listing images, EBC and product-focused Amazon creative.</p>
+        <div><p class="eyebrow" id="work-eyebrow">Selected portfolio creatives</p><h2 id="work-title">Real client work. Clear product stories.</h2></div>
+        <p id="work-intro">A selection pulled directly from my portfolio across Premium A+, listing images, EBC and product-focused Amazon creative.</p>
       </div>
-
-      <div class="portfolio-grid">
-        <a class="portfolio-card featured" href="https://www.behance.net/gallery/256504997/JOMOR-Designer-Bag-Premium-A-content" target="_blank" rel="noopener">
-          <div class="portfolio-image"><img src="https://mir-s3-cdn-cf.behance.net/projects/404/9e232f256504997.Y3JvcCwxNDY0LDExNDUsMCw3Ng.png" alt="J'OMOR Designer Bag Premium A+ Content" loading="lazy" decoding="async"></div>
-          <div class="portfolio-meta"><span>Premium A+ Content</span><h3>J’OMOR Designer Bag</h3><b>View project ↗</b></div>
-        </a>
-
-        <a class="portfolio-card" href="https://www.behance.net/gallery/252825853/Amazon-Premium-A-content" target="_blank" rel="noopener">
-          <div class="portfolio-image"><img src="https://mir-s3-cdn-cf.behance.net/projects/404/1e9fd6252825853.Y3JvcCwxOTIwLDE1MDEsMCwxNDI1.png" alt="Amazon Premium A+ content design" loading="lazy" decoding="async"></div>
-          <div class="portfolio-meta"><span>Premium A+ Content</span><h3>Amazon Premium A+ System</h3><b>View project ↗</b></div>
-        </a>
-
-        <a class="portfolio-card" href="https://www.behance.net/gallery/252825513/Amazon-Listing-Images-Shower-Rack" target="_blank" rel="noopener">
-          <div class="portfolio-image"><img src="https://mir-s3-cdn-cf.behance.net/projects/404/bb4048252825513.Y3JvcCwyNTU2LDIwMDAsMTk5Myww.png" alt="Amazon listing images for shower rack" loading="lazy" decoding="async"></div>
-          <div class="portfolio-meta"><span>Listing Images</span><h3>Shower Rack</h3><b>View project ↗</b></div>
-        </a>
-
-        <a class="portfolio-card" href="https://www.behance.net/gallery/252824579/Amazon-A-content-Brest-Support" target="_blank" rel="noopener">
-          <div class="portfolio-image"><img src="https://mir-s3-cdn-cf.behance.net/projects/404/21afa5252824579.Y3JvcCw5NzAsNzU4LDAsMTIxMA.png" alt="Amazon A+ content support product design" loading="lazy" decoding="async"></div>
-          <div class="portfolio-meta"><span>A+ Content</span><h3>Support Product A+</h3><b>View project ↗</b></div>
-        </a>
-
-        <a class="portfolio-card" href="https://www.behance.net/gallery/252823955/Amazon-Listing-Images-of-Skip-Rope" target="_blank" rel="noopener">
-          <div class="portfolio-image"><img src="https://mir-s3-cdn-cf.behance.net/projects/404/dea2f7252823955.Y3JvcCwyNTU2LDIwMDAsMTk5Myww.jpg" alt="Amazon listing images for skip rope" loading="lazy" decoding="async"></div>
-          <div class="portfolio-meta"><span>Listing Images</span><h3>Skip Rope</h3><b>View project ↗</b></div>
-        </a>
-
-        <a class="portfolio-card" href="https://www.behance.net/gallery/252823779/Amazon-Listing-Images-Rolling-Pin" target="_blank" rel="noopener">
-          <div class="portfolio-image"><img src="https://mir-s3-cdn-cf.behance.net/projects/404/c7ee96252823779.Y3JvcCwyNTU2LDIwMDAsMjAxMiww.png" alt="Amazon listing images for rolling pin" loading="lazy" decoding="async"></div>
-          <div class="portfolio-meta"><span>Listing Images</span><h3>Rolling Pin</h3><b>View project ↗</b></div>
-        </a>
-
-        <a class="portfolio-card" href="https://www.behance.net/gallery/252823369/Amazon-A-content-of-Book" target="_blank" rel="noopener">
-          <div class="portfolio-image"><img src="https://mir-s3-cdn-cf.behance.net/projects/404/550217252823369.Y3JvcCw5NzAsNzU4LDAsMA.png" alt="Amazon A+ content for book" loading="lazy" decoding="async"></div>
-          <div class="portfolio-meta"><span>A+ Content</span><h3>Book A+ Content</h3><b>View project ↗</b></div>
-        </a>
-
-        <a class="portfolio-card featured" href="https://www.behance.net/gallery/252822229/EBC-of-Azul-Tea" target="_blank" rel="noopener">
-          <div class="portfolio-image"><img src="https://mir-s3-cdn-cf.behance.net/projects/404/232efd252822229.Y3JvcCw5NzAsNzU4LDAsMTIwMA.png" alt="EBC design for Azul Tea" loading="lazy" decoding="async"></div>
-          <div class="portfolio-meta"><span>EBC / A+ Content</span><h3>Azul Tea</h3><b>View project ↗</b></div>
-        </a>
-      </div>
-
+      <div class="portfolio-grid" id="portfolio-grid"></div>
       <div class="portfolio-links">
-        <a class="button dark" href="https://www.behance.net/ahsankhan146" target="_blank" rel="noopener">Explore all Behance projects ↗</a>
-        <a class="button" href="https://www.upwork.com/freelancers/mahsankhan3" target="_blank" rel="noopener">View Upwork profile ↗</a>
+        <a class="button dark" id="behance-link" target="_blank" rel="noopener">Explore all Behance projects ↗</a>
+        <a class="button" id="upwork-link" target="_blank" rel="noopener">View Upwork profile ↗</a>
       </div>
     </div>
   </section>
 
   <section id="services" class="section soft">
     <div class="wrap">
-      <p class="eyebrow">Services</p>
-      <h2>From first click to brand story.</h2>
-      <div class="services">
-        <div><b>01</b><h3>Listing Images</h3><p>Main images, infographics, lifestyle images, comparison graphics and feature-led visual systems.</p></div>
-        <div><b>02</b><h3>A+ Content</h3><p>Basic and Premium A+ layouts designed for stronger storytelling, education and visual continuity.</p></div>
-        <div><b>03</b><h3>Brand Storefronts</h3><p>Amazon storefront banners and page systems that organize the catalog while strengthening brand identity.</p></div>
-        <div><b>04</b><h3>Creative Direction</h3><p>Visual hierarchy, design systems, product positioning and creative consistency across marketplace assets.</p></div>
-      </div>
+      <p class="eyebrow" id="services-eyebrow">Services</p>
+      <h2 id="services-title">From first click to brand story.</h2>
+      <div class="services" id="services-grid"></div>
     </div>
   </section>
 
   <section id="about" class="section">
     <div class="wrap about">
       <div>
-        <p class="eyebrow">About</p>
-        <h2>Design thinking shaped by real Amazon work.</h2>
+        <p class="eyebrow" id="about-eyebrow">About</p>
+        <h2 id="about-title">Design thinking shaped by real Amazon work.</h2>
       </div>
       <div class="about-copy">
-        <p>I’m Muhammad Ahsan Khan, an Amazon-focused visual designer working across listing images, A+ Content, Premium A+ and Storefront design.</p>
-        <p>My approach combines strong visual presentation with marketplace awareness: what shoppers see first, what needs explanation, what creates trust, and how the complete listing should feel as one system rather than separate graphics.</p>
-        <div class="chips"><span>Amazon Listing Images</span><span>A+ Content</span><span>Premium A+</span><span>Storefronts</span><span>Brand Story</span><span>Infographics</span></div>
+        <div id="about-paragraphs"></div>
+        <div class="chips" id="skills"></div>
       </div>
     </div>
   </section>
 
   <section id="contact" class="section">
     <div class="wrap cta">
-      <div><p class="eyebrow light">Available for selected projects</p><h2>Need stronger Amazon creative?</h2><p>Tell me what you’re selling and what you need. I’ll help turn it into a clearer, more professional visual experience.</p></div>
+      <div>
+        <p class="eyebrow light" id="contact-eyebrow">Available for selected projects</p>
+        <h2 id="contact-title">Need stronger Amazon creative?</h2>
+        <p id="contact-text">Tell me what you’re selling and what you need. I’ll help turn it into a clearer, more professional visual experience.</p>
+      </div>
       <div class="actions">
-        <a class="button amber" href="mailto:mahsankuet@gmail.com">Email me →</a>
-        <a class="button outline" href="https://www.upwork.com/freelancers/mahsankhan3" target="_blank" rel="noopener">Hire on Upwork ↗</a>
+        <a class="button amber" id="email-link">Email me →</a>
+        <a class="button outline" id="hire-link" target="_blank" rel="noopener">Hire on Upwork ↗</a>
       </div>
     </div>
   </section>
@@ -161,9 +99,15 @@
 
 <footer>
   <div class="wrap footer">
-    <span>© 2026 Muhammad Ahsan Khan</span>
-    <div><a href="https://www.behance.net/ahsankhan146" target="_blank" rel="noopener">Behance</a><a href="https://www.upwork.com/freelancers/mahsankhan3" target="_blank" rel="noopener">Upwork</a><a href="mailto:mahsankuet@gmail.com">Email</a></div>
+    <span id="footer-copy">© 2026 Muhammad Ahsan Khan</span>
+    <div>
+      <a id="footer-behance" target="_blank" rel="noopener">Behance</a>
+      <a id="footer-upwork" target="_blank" rel="noopener">Upwork</a>
+      <a id="footer-email">Email</a>
+    </div>
   </div>
 </footer>
+
+<noscript><div class="wrap" style="padding:24px">This website needs JavaScript enabled to load the portfolio content.</div></noscript>
 </body>
 </html>
