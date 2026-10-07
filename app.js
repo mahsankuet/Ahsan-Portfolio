@@ -40,7 +40,7 @@ async function loadSite() {
       a.target = '_blank';
       a.rel = 'noopener';
       const img = make('img');
-      img.src = project.image;
+      img.src = project.thumb || project.image;
       img.alt = project.title || 'Portfolio project';
       img.decoding = 'async';
       a.append(img);
@@ -62,6 +62,8 @@ async function loadSite() {
       const imageWrap = make('div', 'portfolio-image');
       const img = make('img');
       img.src = project.image;
+      if (project.thumb) img.srcset = `${project.thumb} 808w, ${project.image} 1600w`;
+      img.sizes = project.featured ? '(max-width: 780px) 100vw, 1200px' : '(max-width: 780px) 100vw, 620px';
       img.alt = project.title || 'Portfolio project';
       img.loading = 'lazy';
       img.decoding = 'async';
