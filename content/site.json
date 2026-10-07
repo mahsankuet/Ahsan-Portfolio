@@ -1,32 +1,32 @@
 {
-  "site_name": "Ahsan Khan",
+  "site_name": "PIXEL",
   "hero": {
-    "eyebrow": "Amazon visual designer & marketplace specialist",
-    "title": "Amazon creative built to earn the click — and support the conversion.",
-    "intro": "I create listing images, A+ Content, Premium A+ and storefront systems that turn product features into clear, persuasive visual stories."
+    "eyebrow": "Amazon & e-commerce creative agency",
+    "title": "Creative that makes products easier to understand — and brands harder to ignore.",
+    "intro": "PIXEL helps Amazon sellers, brand owners, authors and e-commerce businesses turn products into clear, persuasive visual experiences."
   },
   "stats": [
     {
-      "value": "100%",
-      "label": "Job Success"
+      "value": "7-person",
+      "label": "specialist team"
     },
     {
-      "value": "Top Rated",
-      "label": "Upwork status"
+      "value": "Amazon",
+      "label": "creative + PPC"
     },
     {
-      "value": "233",
-      "label": "Jobs completed"
+      "value": "KDP",
+      "label": "design + publishing support"
     },
     {
-      "value": "5.9K+",
-      "label": "Upwork hours"
+      "value": "E-commerce",
+      "label": "creative systems"
     }
   ],
   "work": {
-    "eyebrow": "Selected portfolio creatives",
-    "title": "Real client work. Clear product stories.",
-    "intro": "A selection pulled directly from my portfolio across Premium A+, listing images, EBC and product-focused Amazon creative."
+    "eyebrow": "Selected client work",
+    "title": "Strong visuals. Clear product stories.",
+    "intro": "A selection of work across Amazon listing images, Premium A+, EBC and product-focused marketplace creative."
   },
   "projects": [
     {
@@ -87,56 +87,79 @@
     }
   ],
   "services_section": {
-    "eyebrow": "Services",
-    "title": "From first click to brand story."
+    "eyebrow": "Capabilities",
+    "title": "From first click to full brand presence."
   },
   "services": [
     {
       "number": "01",
       "title": "Listing Images",
-      "description": "Main images, infographics, lifestyle images, comparison graphics and feature-led visual systems."
+      "description": "Main images, infographics, lifestyle scenes, comparison graphics and conversion-focused visual systems."
     },
     {
       "number": "02",
-      "title": "A+ Content",
-      "description": "Basic and Premium A+ layouts designed for stronger storytelling, education and visual continuity."
+      "title": "A+ / Premium A+",
+      "description": "Basic and Premium A+ content designed for stronger storytelling, education and visual continuity."
     },
     {
       "number": "03",
-      "title": "Brand Storefronts",
-      "description": "Amazon storefront banners and page systems that organize the catalog while strengthening brand identity."
+      "title": "Brand Story & Storefront",
+      "description": "Amazon Brand Story and Storefront systems that organize the catalog and strengthen brand identity."
     },
     {
       "number": "04",
+      "title": "Amazon PPC",
+      "description": "Campaign structure, optimization, search-term analysis and performance-focused advertising support."
+    },
+    {
+      "number": "05",
+      "title": "Amazon KDP",
+      "description": "Book covers, interior formatting, print-ready files, keywords, categories, publishing support and listing optimization."
+    },
+    {
+      "number": "06",
+      "title": "Shopify Creative",
+      "description": "E-commerce banners, product graphics and storefront visuals built for cleaner product presentation."
+    },
+    {
+      "number": "07",
+      "title": "Short-form Video",
+      "description": "Simple, product-focused short videos and motion assets for marketplace and social use."
+    },
+    {
+      "number": "08",
       "title": "Creative Direction",
-      "description": "Visual hierarchy, design systems, product positioning and creative consistency across marketplace assets."
+      "description": "Visual hierarchy, product positioning and consistent design systems across marketplace assets."
     }
   ],
   "about": {
-    "eyebrow": "About",
-    "title": "Design thinking shaped by real Amazon work.",
+    "eyebrow": "The agency",
+    "title": "A focused team for Amazon and e-commerce growth.",
     "paragraphs": [
-      "I’m Muhammad Ahsan Khan, an Amazon-focused visual designer working across listing images, A+ Content, Premium A+ and Storefront design.",
-      "My approach combines strong visual presentation with marketplace awareness: what shoppers see first, what needs explanation, what creates trust, and how the complete listing should feel as one system rather than separate graphics."
+      "PIXEL is a seven-person creative and Amazon agency working across listing images, A+ Content, Brand Story, Storefronts, PPC, KDP, Shopify creative and short-form video.",
+      "Our approach combines marketplace awareness with strong visual communication: what shoppers notice first, what needs explanation, what builds trust, and how every asset should work together as one brand system."
     ],
     "skills": [
-      "Amazon Listing Images",
+      "Listing Images",
       "A+ Content",
       "Premium A+",
-      "Storefronts",
       "Brand Story",
-      "Infographics"
+      "Storefronts",
+      "Amazon PPC",
+      "Amazon KDP",
+      "Shopify",
+      "Short-form Video"
     ]
   },
   "contact": {
-    "eyebrow": "Available for selected projects",
-    "title": "Need stronger Amazon creative?",
-    "text": "Tell me what you’re selling and what you need. I’ll help turn it into a clearer, more professional visual experience.",
+    "eyebrow": "Available for new projects",
+    "title": "Need stronger Amazon or e-commerce creative?",
+    "text": "Tell us what you sell, what marketplace you are on, and what you need. We’ll help shape the right creative direction.",
     "email": "mahsankuet@gmail.com"
   },
   "links": {
-    "behance": "https://www.behance.net/ahsankhan146",
-    "upwork": "https://www.upwork.com/freelancers/mahsankhan3"
+    "behance": "https://www.behance.net/ahsankhan337",
+    "upwork": "https://www.upwork.com/agencies/1090276239618654208/"
   },
-  "footer": "© 2026 Muhammad Ahsan Khan"
+  "footer": "© 2026 PIXEL. All rights reserved."
 }
